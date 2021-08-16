@@ -14,7 +14,7 @@ var tbody = d3.select("tbody");
  });
 
  var submit = d3.select("#submit");
-
+ 
  submit.on("click", function() {
 
    d3.select(".summary").html("");
